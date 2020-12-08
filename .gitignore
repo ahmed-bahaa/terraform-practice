@@ -1,0 +1,2 @@
+.terraform/plugins 
+.terraform/terraform.tfstate 

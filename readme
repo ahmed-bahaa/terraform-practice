@@ -1,0 +1,11 @@
+#1 create a user or ec2 with a role and attach one of the polices to it from iam_aws_policy 
+
+#2 incase user craeted, get the credintials and use 
+    $ aws configure 
+andenter your credintials
+
+#3 create s3 bucket to store the tf.state 
+    we will use s3 as a backend to share the state with anyone wokring on the code
+    $ aws s3api create-bucket --bucket bahaa-terraform
+
+#4 create the terraform backend file 
